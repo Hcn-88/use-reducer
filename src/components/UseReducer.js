@@ -67,7 +67,7 @@ const TodoExample = () => {
             <li
               className="flex-1 bg-slate-200 py-2 px-4 rounded-full"
             >
-              {todo.text.charAt(0).toUpperCase() + todo.text.slice(1)}
+              {todo.text.charAt(0).toUpperCase() + todo.text.slice(1).toLowerCase()}
             </li>
             <button
               className="bg-slate-400 py-2 px-4 rounded-full hover:drop-shadow-xl"
