@@ -2,7 +2,7 @@ import TodoExample from "./components/UseReducer";
 
 const App = () => {
   return (
-    <div className="App">
+    <div>
       <TodoExample />
     </div>
   );
