@@ -45,11 +45,11 @@ const TodoExample = () => {
   return (
     <div className="flex flex-col items-center">
       <h1 className="text-2xl py-7">Todo List</h1>
-      <div className="w-1/2 flex items-center justify-between">
+      <div className="w-full md:w-1/2 flex items-center justify-between">
         <input
           className="flex-1 bg-gray-200 rounded-l-lg py-2 px-3 outline-0"
           type="text"
-          placeholder="Add item..."
+          placeholder="Add todo..."
           value={newTodoText}
           onChange={(e) => setNewTodoText(e.target.value)}
         />
@@ -61,7 +61,7 @@ const TodoExample = () => {
           Add Todo
         </button>
       </div>
-      <ul className="w-1/2 my-8 flex flex-col gap-5">
+      <ul className="w-full md:w-1/2 my-8 flex flex-col gap-5">
         {todos.map((todo) => (
           <div className="flex items-center justify-between gap-3">
             <li
