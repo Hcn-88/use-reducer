@@ -45,7 +45,7 @@ const TodoExample = () => {
   return (
     <div className="flex flex-col items-center">
       <h1 className="text-2xl py-7">Todo List</h1>
-      <div className="w-full md:w-1/2 flex items-center justify-between">
+      <div className="w-full md:w-1/2 flex items-center">
         <input
           className="flex-1 bg-gray-200 rounded-l-lg py-2 px-3 outline-0"
           type="text"
